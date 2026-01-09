@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PharmaIntel AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>PharmaIntel AI</h1>
+        <p class="subtitle">
+            AI-powered drug, clinical trial, and regulatory intelligence
+        </p>
+
+        <input 
+            type="text" 
+            id="drugInput" 
+            placeholder="Enter drug name (e.g., Tylenol)"
+        >
+
+        <button onclick="explainDrug()">Explain Drug</button>
+
+        <div id="result"></div>
+
+        <footer>
+            <p>
+                Educational use only. Not medical advice.
+                Data derived from publicly available sources.
+            </p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
